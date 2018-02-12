@@ -1,0 +1,231 @@
+{% ckan_extends %}
+
+{# You could remove 'free extras' from the package form like this, but we keep them for this example's tests.
+  {% block custom_fields %}
+  {% endblock %}
+#}
+
+{% block dataset_fields %}
+
+<!--
+	<div class="control-group">
+		<label class="control-label" for="field-autorizzati">{{ _("Non Autorizzati") }}</label>
+		<div class="controls">
+			<select id="field-autorizzati" name="autorizzati" data-module="autocomplete" multiple>
+				{% for user in h.allowed_list()  %}
+					<option value="{{ user }}" {% if user in data.get('autorizzati', []) %}selected="selected"{% endif %}>{{ user }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+-->
+
+
+
+{{ form.input('ico_categoria_eurovoc', label=_('Categoria EUROVOC'), id='field-ico_categoria_eurovoc', placeholder=_('Categoria EUROVOC'), value=data.ico_categoria_eurovoc, error=errors.ico_categoria_eurovoc,classes=['control-medium']) }}
+{{ form.input('ico_sottocategoria_eurovoc', label=_('Sottocategoria EUROVOC'), id='field-ico_sottocategoria_eurovoc', placeholder=_('Sottocategoria EUROVOC'), value=data.ico_sottocategoria_eurovoc, error=errors.ico_sottocategoria_eurovoc,classes=['control-medium']) }}
+
+
+
+
+<!-CATEGORIA GEMET INPUT FORM #############-->
+
+	<div class="control-group"> 
+		<label class="control-label" for="field-ico_categoria_gemet">{{ _("Tema GEMET") }}</label>
+		<div class="controls">
+			<select id="field-ico_categoria_gemet" name="ico_categoria_gemet" data-module="autocomplete" multiple>
+				{% for tagg in h.ico_vocabolario_GEMETs()  %}
+					<option value="{{ tagg }}" {% if tagg in data.get('ico_categoria_gemet', []) %}selected="selected"{% endif %}>{{ tagg }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+<!-SOTTOCATEGORIA GEMET INPUT FORM #############-->
+
+	<div class="control-group"> 
+		<label class="control-label" for="field-ico_sottocategoria_gemet">{{ _("Categoria GEMET") }}</label>
+		<div class="controls">
+			<select id="field-ico_sottocategoria_gemet" name="ico_sottocategoria_gemet" data-module="autocomplete" multiple>
+				{% for tag in h.ico_vocabolario_sottoGEMETs() %}
+					<option value="{{ tag}}" {% if tag in data.get('ico_sottocategoria_gemet', []) %}selected="selected"{% endif %}>{{ tag }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+<!-- ############################### TEMA DCAT ##############-->
+
+	<div class="control-group">
+		<label class="control-label" for="field-theme">{{ _("Tema DCAT") }}</label>
+		<div class="controls">
+			<select id="field-theme" name="theme" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_theme in h.ico_vocabolario_themes()  %}
+					<option value="{{ ico_vocabolario_theme }}" {% if ico_vocabolario_theme in data.get('theme', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_theme }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+<!--
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_TAmbientale">{{ _("Tematica Ambientale") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_TAmbientale" name="ico_vocabolario_TAmbientale" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_TAmbientale in h.ico_vocabolario_TAmbientales()  %}
+					<option value="{{ ico_vocabolario_TAmbientale }}" {% if ico_vocabolario_TAmbientale in data.get('ico_vocabolario_TAmbientale', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_TAmbientale }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_stTematica_ambientale">{{ _("Sottotematica Ambientale") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_stTematica_ambientale" name="ico_vocabolario_stTematica_ambientale" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_stTematica_ambientale in h.ico_vocabolario_stTematica_ambientales()  %}
+					<option value="{{ ico_vocabolario_stTematica_ambientale }}" {% if ico_vocabolario_stTematica_ambientale in data.get('ico_vocabolario_stTematica_ambientale', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_stTematica_ambientale }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+-->
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_modello_dpsir">{{ _("Modello DPSIR") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_modello_dpsir" name="ico_vocabolario_modello_dpsir" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_modello_dpsir in h.ico_vocabolario_modello_dpsirs()  %}
+					<option value="{{ ico_vocabolario_modello_dpsir }}" {% if ico_vocabolario_modello_dpsir in data.get('ico_vocabolario_modello_dpsir', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_modello_dpsir }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_Elementi">{{ _("Elementi") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_Elementi" name="ico_vocabolario_Elementi" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_Elementi in h.ico_vocabolario_Elementis()  %}
+					<option value="{{ ico_vocabolario_Elementi }}" {% if ico_vocabolario_Elementi in data.get('ico_vocabolario_Elementi', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_Elementi }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_Archivio">{{ _("Archivio") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_Archivio" name="ico_vocabolario_Archivio" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_Archivio in h.ico_vocabolario_Archivios()  %}
+					<option value="{{ ico_vocabolario_Archivio }}" {% if ico_vocabolario_Archivio in data.get('ico_vocabolario_Archivio', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_Archivio }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_EnCo">{{ _("Enti Coinvolti") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_EnCo" name="ico_vocabolario_EnCo" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_EnCo in h.ico_vocabolario_EnCos()  %}
+					<option value="{{ ico_vocabolario_EnCo }}" {% if ico_vocabolario_EnCo in data.get('ico_vocabolario_EnCo', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_EnCo }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_fonte_informazione">{{ _("Fonte Informazione") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_fonte_informazione" name="ico_vocabolario_fonte_informazione" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_fonte_informazione in h.ico_vocabolario_fonte_informaziones()  %}
+					<option value="{{ ico_vocabolario_fonte_informazione }}" {% if ico_vocabolario_fonte_informazione in data.get('ico_vocabolario_fonte_informazione', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_fonte_informazione }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_LP">{{ _("Livello di Pubblicazione") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_LP" name="ico_vocabolario_LP" data-module="autocomplete">
+				{% for ico_vocabolario_LP in h.ico_vocabolario_LPs()  %}
+					<option value="{{ ico_vocabolario_LP }}" {% if ico_vocabolario_LP in data.get('ico_vocabolario_LP', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_LP }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_PP">{{ _("Portale Pubblicazione") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_PP" name="ico_vocabolario_PP" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_PP in h.ico_vocabolario_PPs()  %}
+					<option value="{{ ico_vocabolario_PP }}" {% if ico_vocabolario_PP in data.get('ico_vocabolario_PP', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_PP }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_Finanziamenti">{{ _("Finanziamenti") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_Finanziamenti" name="ico_vocabolario_Finanziamenti" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_Finanziamenti in h.ico_vocabolario_Finanziamentis()  %}
+					<option value="{{ ico_vocabolario_Finanziamenti }}" {% if ico_vocabolario_Finanziamenti in data.get('ico_vocabolario_Finanziamenti', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_Finanziamenti }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_TD">{{ _("Tipo Dato") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_TD" name="ico_vocabolario_TD" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_TD in h.ico_vocabolario_TDs()  %}
+					<option value="{{ ico_vocabolario_TD }}" {% if ico_vocabolario_TD in data.get('ico_vocabolario_TD', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_TD }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>	
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_attivita">{{ _("Attivita") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_attivita" name="ico_vocabolario_attivita" data-module="autocomplete" multiple>
+				{% for ico_vocabolario_attivita in h.ico_vocabolario_attivitas()  %}
+					<option value="{{ ico_vocabolario_attivita }}" {% if ico_vocabolario_attivita in data.get('ico_vocabolario_attivita', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_attivita }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>	
+
+
+	<div class="control-group">
+		<label class="control-label" for="field-ico_vocabolario_dato_certificato">{{ _("Dato Certificato") }}</label>
+		<div class="controls">
+			<select id="field-ico_vocabolario_dato_certificato" name="ico_vocabolario_dato_certificato" data-module="autocomplete">
+				{% for ico_vocabolario_dato_certificato in h.ico_vocabolario_dato_certificatos()  %}
+					<option value="{{ ico_vocabolario_dato_certificato }}" {% if ico_vocabolario_dato_certificato in data.get('ico_vocabolario_dato_certificato', []) %}selected="selected"{% endif %}>{{ ico_vocabolario_dato_certificato }}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</div>	
+
+
+  {{ super() }}
+
+{% endblock %}
+

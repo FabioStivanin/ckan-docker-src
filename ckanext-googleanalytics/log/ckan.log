@@ -1,0 +1,164 @@
+2017-10-02 10:48:37 [DEBUG]  PID=8859 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:48:37 [DEBUG]  PID=8859 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:48:38 [DEBUG]  PID=8859 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:48:38 [DEBUG]  PID=8859 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:48:38 [DEBUG]  PID=8859 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:53:04 [DEBUG]  PID=8916 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:53:04 [DEBUG]  PID=8916 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:53:04 [DEBUG]  PID=8916 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:53:04 [DEBUG]  PID=8916 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:53:04 [DEBUG]  PID=8916 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:55:17 [DEBUG]  PID=8936 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:55:17 [DEBUG]  PID=8936 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:55:17 [DEBUG]  PID=8936 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:55:17 [DEBUG]  PID=8936 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:55:17 [DEBUG]  PID=8936 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:55:26 [DEBUG]  PID=8952 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:55:26 [DEBUG]  PID=8952 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:55:26 [DEBUG]  PID=8952 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:55:26 [DEBUG]  PID=8952 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:55:26 [DEBUG]  PID=8952 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:58:40 [DEBUG]  PID=8991 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:58:40 [DEBUG]  PID=8991 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:58:40 [DEBUG]  PID=8991 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:58:40 [DEBUG]  PID=8991 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:58:40 [DEBUG]  PID=8991 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:59:51 [DEBUG]  PID=9022 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:59:51 [DEBUG]  PID=9022 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:59:51 [DEBUG]  PID=9022 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:59:51 [DEBUG]  PID=9022 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:59:51 [DEBUG]  PID=9022 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 10:59:58 [DEBUG]  PID=9037 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 10:59:58 [DEBUG]  PID=9037 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 10:59:58 [DEBUG]  PID=9037 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 10:59:58 [DEBUG]  PID=9037 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 10:59:58 [DEBUG]  PID=9037 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:01:35 [DEBUG]  PID=9066 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:01:35 [DEBUG]  PID=9066 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:01:35 [DEBUG]  PID=9066 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:01:35 [DEBUG]  PID=9066 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:01:35 [DEBUG]  PID=9066 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:02:28 [DEBUG]  PID=9098 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:02:28 [DEBUG]  PID=9098 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:02:28 [DEBUG]  PID=9098 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:02:28 [DEBUG]  PID=9098 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:02:28 [DEBUG]  PID=9098 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:03:50 [DEBUG]  PID=9117 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:03:50 [DEBUG]  PID=9117 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:03:50 [DEBUG]  PID=9117 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:03:50 [DEBUG]  PID=9117 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:03:50 [DEBUG]  PID=9117 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:04:14 [DEBUG]  PID=9132 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:04:14 [DEBUG]  PID=9132 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:04:14 [DEBUG]  PID=9132 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:04:14 [DEBUG]  PID=9132 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:04:14 [DEBUG]  PID=9132 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:04:25 [DEBUG]  PID=9147 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:04:25 [DEBUG]  PID=9147 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:04:26 [DEBUG]  PID=9147 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:04:26 [DEBUG]  PID=9147 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:04:26 [DEBUG]  PID=9147 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:06:02 [DEBUG]  PID=9177 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:06:02 [DEBUG]  PID=9177 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:06:02 [DEBUG]  PID=9177 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:06:02 [DEBUG]  PID=9177 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:06:02 [DEBUG]  PID=9177 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:07:02 [DEBUG]  PID=9199 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:07:02 [DEBUG]  PID=9199 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:07:02 [DEBUG]  PID=9199 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:07:02 [DEBUG]  PID=9199 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:07:02 [DEBUG]  PID=9199 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:07:15 [DEBUG]  PID=9213 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 11:07:15 [DEBUG]  PID=9213 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 11:07:16 [DEBUG]  PID=9213 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 11:07:16 [DEBUG]  PID=9213 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 11:07:16 [DEBUG]  PID=9213 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 11:07:16 [WARNING] USER=default PID=9213 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 12:23:03 [DEBUG]  PID=9635 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 12:23:03 [DEBUG]  PID=9635 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 12:23:03 [DEBUG]  PID=9635 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 12:23:03 [DEBUG]  PID=9635 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 12:23:03 [DEBUG]  PID=9635 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 12:23:07 [DEBUG]  PID=9649 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 12:23:07 [DEBUG]  PID=9649 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 12:23:07 [DEBUG]  PID=9649 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 12:23:07 [DEBUG]  PID=9649 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 12:23:07 [DEBUG]  PID=9649 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 12:23:07 [WARNING] USER=default PID=9649 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 12:25:31 [DEBUG]  PID=9670 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 12:25:31 [DEBUG]  PID=9670 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 12:25:31 [DEBUG]  PID=9670 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 12:25:31 [DEBUG]  PID=9670 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 12:25:31 [DEBUG]  PID=9670 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 12:25:31 [WARNING] USER=default PID=9670 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 12:25:39 [DEBUG]  PID=9685 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 12:25:39 [DEBUG]  PID=9685 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 12:25:39 [DEBUG]  PID=9685 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 12:25:39 [DEBUG]  PID=9685 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 12:25:39 [DEBUG]  PID=9685 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 12:25:42 [DEBUG]  PID=9699 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 12:25:42 [DEBUG]  PID=9699 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 12:25:42 [DEBUG]  PID=9699 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 12:25:42 [DEBUG]  PID=9699 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 12:25:42 [DEBUG]  PID=9699 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 12:25:43 [WARNING] USER=default PID=9699 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 13:09:34 [DEBUG]  PID=10436 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 13:09:34 [DEBUG]  PID=10436 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 13:09:34 [DEBUG]  PID=10436 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 13:09:34 [DEBUG]  PID=10436 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 13:09:34 [DEBUG]  PID=10436 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 13:09:34 [WARNING] USER=default PID=10436 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 13:15:43 [DEBUG]  PID=10500 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 13:15:43 [DEBUG]  PID=10500 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 13:15:43 [DEBUG]  PID=10500 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 13:15:43 [DEBUG]  PID=10500 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 13:15:43 [DEBUG]  PID=10500 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 13:15:44 [WARNING] USER=default PID=10500 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+2017-10-02 13:18:15 [DEBUG]  PID=10535 [ckanext.harvest.model] Harvest tables defined in memory
+2017-10-02 13:18:15 [DEBUG]  PID=10535 [ckanext.harvest.model] Harvest tables already exist
+2017-10-02 13:18:15 [DEBUG]  PID=10535 [ckanext.spatial.plugin] Setting up the spatial model
+2017-10-02 13:18:15 [DEBUG]  PID=10535 [ckanext.spatial.model.package_extent] Spatial tables defined in memory
+2017-10-02 13:18:15 [DEBUG]  PID=10535 [ckanext.spatial.model.package_extent] Spatial tables already exist
+2017-10-02 13:18:15 [WARNING] USER=default PID=10535 [googleapiclient.discovery_cache] file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/ckan/default/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0

@@ -1,0 +1,702 @@
+
+GRUPPO: AGGLOMERATI (SERVIZIO IDRICO) --> 2 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 17 ( privati 0, pubblici 17)
+altre: 0 ( privati 0, pubblici 0)
+totali: 17 ( privati 0, pubblici 17)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: ARIA - INFORMAZIONI DI CONTESTO E PIANIFICAZIONE --> 5 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 6 ( privati 0, pubblici 6)
+totali: 6 ( privati 0, pubblici 6)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 2 ( privati 0, pubblici 2)
+totali: 2 ( privati 0, pubblici 2)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: AUTORIZZAZIONI, CONCESSIONI E VALUTAZIONI AMBIENTALI --> 3 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 1 ( privati 0, pubblici 1)
+totali: 1 ( privati 0, pubblici 1)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: CMR VIABILITA (CENTRO DI MONITORAGGIO REGIONALE) --> 3 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 2 ( privati 0, pubblici 2)
+totali: 2 ( privati 0, pubblici 2)
+
+
+GRUPPO: DISSESTO IDROGEOLOGICO --> 8 dataset:
+> org = ambiente
+wms: 1 ( privati 0, pubblici 1)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 1 ( privati 0, pubblici 1)
+
+> org = dg-cta-geoportale
+wms: 7 ( privati 0, pubblici 7)
+shp: 0 ( privati 0, pubblici 0)
+altre: 3 ( privati 0, pubblici 3)
+totali: 10 ( privati 0, pubblici 10)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: LAVORI PUBBLICI PER SICUREZZA TERRITORIALE --> 1 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 1 ( privati 0, pubblici 1)
+totali: 1 ( privati 0, pubblici 1)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PAI (PIANO ASSETTO IDROGEOLOGICO) - AUTORITA BACINO DEL PO --> 3 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 36 ( privati 0, pubblici 36)
+altre: 4 ( privati 0, pubblici 4)
+totali: 40 ( privati 0, pubblici 40)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PAI (PIANO ASSETTO IDROGEOLOGICO)  AUTORITA BACINO RENO --> 8 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 17 ( privati 0, pubblici 17)
+altre: 9 ( privati 0, pubblici 9)
+totali: 26 ( privati 0, pubblici 26)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO:  PAI (PIANO ASSETTO IDROGEOLOGICO) - AUTORITA BACINO FIUMI ROMAGNOLI --> 3 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 11 ( privati 0, pubblici 11)
+altre: 14 ( privati 0, pubblici 14)
+totali: 25 ( privati 0, pubblici 25)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PAI (PIANO ASSETTO IDROGEOLOGICO) - AUTORITA MARECCHIA-CONCA --> 2 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 13 ( privati 0, pubblici 13)
+altre: 0 ( privati 0, pubblici 0)
+totali: 13 ( privati 0, pubblici 13)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PARCHI, FORESTE, AREE PROTETTE --> 9 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 4 ( privati 0, pubblici 4)
+altre: 3 ( privati 0, pubblici 3)
+totali: 7 ( privati 0, pubblici 7)
+
+> org = dg-cta-geoportale
+wms: 7 ( privati 0, pubblici 7)
+shp: 8 ( privati 0, pubblici 8)
+altre: 8 ( privati 0, pubblici 8)
+totali: 23 ( privati 0, pubblici 23)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO DI GESTIONE DELLE ACQUE (PDG) 2010 --> 15 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 8 ( privati 0, pubblici 8)
+altre: 0 ( privati 0, pubblici 0)
+totali: 8 ( privati 0, pubblici 8)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO DI GESTIONE DELLE ACQUE (PDG) 2015 --> 16 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 11 ( privati 0, pubblici 11)
+altre: 0 ( privati 0, pubblici 0)
+totali: 11 ( privati 0, pubblici 11)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 4 ( privati 0, pubblici 4)
+altre: 0 ( privati 0, pubblici 0)
+totali: 4 ( privati 0, pubblici 4)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PGRA - ELEMENTI ESPOSTI E AREE ALLAGABILI (RISCHIO) --> 12 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 79 ( privati 0, pubblici 79)
+shp: 0 ( privati 0, pubblici 0)
+altre: 25 ( privati 0, pubblici 25)
+totali: 104 ( privati 0, pubblici 104)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PGRA - MAPPE PERICOLOSITA --> 33 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 33 ( privati 0, pubblici 33)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 33 ( privati 0, pubblici 33)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANI STRUTTURALI COMUNALI (PSC) --> 7 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 7 ( privati 0, pubblici 7)
+shp: 0 ( privati 0, pubblici 0)
+altre: 7 ( privati 0, pubblici 7)
+totali: 14 ( privati 0, pubblici 14)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: DATI AMMINISTRATIVI DEI PIANI URBANISTICI COMUNALI --> 1 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 1 ( privati 0, pubblici 1)
+totali: 1 ( privati 0, pubblici 1)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO REGIONALE INTEGRATO DEI TRASPORTI (PRIT) --> 33 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO REGOLATORE GENERALE COMUNALE (PRG) --> 3 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 7 ( privati 0, pubblici 7)
+totali: 7 ( privati 0, pubblici 7)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO TUTELA ACQUE (PTA) --> 74 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 74 ( privati 0, pubblici 74)
+altre: 0 ( privati 0, pubblici 0)
+totali: 74 ( privati 0, pubblici 74)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO TERRITORIALE DI COORDINAMENTO PROVINCIALE (PTCP) --> 26 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: PIANO TERRITORIALE PAESISTICO REGIONALE (PTPR) --> 30 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 3 ( privati 0, pubblici 3)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 3 ( privati 0, pubblici 3)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 27 ( privati 0, pubblici 27)
+altre: 0 ( privati 0, pubblici 0)
+totali: 27 ( privati 0, pubblici 27)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: RIFIUTI --> 14 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 7 ( privati 0, pubblici 7)
+altre: 43 ( privati 0, pubblici 43)
+totali: 50 ( privati 0, pubblici 50)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: RISCHIO COSTIERO --> 14 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 39 ( privati 0, pubblici 39)
+shp: 0 ( privati 0, pubblici 0)
+altre: 11 ( privati 0, pubblici 11)
+totali: 50 ( privati 0, pubblici 50)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: ASPETTI SISMICI --> 26 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 26 ( privati 0, pubblici 26)
+shp: 0 ( privati 0, pubblici 0)
+altre: 2 ( privati 0, pubblici 2)
+totali: 28 ( privati 0, pubblici 28)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: RUMORE --> 36 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+
+GRUPPO: VINCOLI PAESAGGISTICI --> 15 dataset:
+> org = ambiente
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = dg-cta-geoportale
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+
+> org = programmazione-territoriale
+wms: 0 ( privati 0, pubblici 0)
+shp: 3 ( privati 0, pubblici 3)
+altre: 1 ( privati 0, pubblici 1)
+totali: 4 ( privati 0, pubblici 4)
+
+> org = trasporti
+wms: 0 ( privati 0, pubblici 0)
+shp: 0 ( privati 0, pubblici 0)
+altre: 0 ( privati 0, pubblici 0)
+totali: 0 ( privati 0, pubblici 0)
+

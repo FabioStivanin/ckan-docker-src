@@ -1,0 +1,63 @@
+{% ckan_extends %}
+
+{% block package_basic_fields_custom %}
+{{ form.input('ico_lingua', label=_('Lingua'), id='field-ico_lingua', placeholder=_('Lingua'), value=data.language, error=errors.ico_lingua,classes=['control-medium']) }}
+
+{{ form.input('holder_name', label=_('Nome Ente Responsabile'), id='field-holder_name', placeholder=_('Nome Ente Responsabile'), value=data.holder_name, error=errors.holder_name,classes=['control-medium']) }}
+{{ form.input('holder_identifier', label=_('ID Ente Responsabile'), id='field-holder_identifier', placeholder=_('Nome Ente Responsabile'), value=data.holder_identifier, error=errors.holder_identifier,classes=['control-medium']) }}
+{{ form.input('ico_email_ente_responsabile', label=_('Email Ente Responsabile'), id='field-ico_email_ente_responsabile', placeholder=_('Email Ente Responsabile'), value=data.ico_email_ente_responsabile, error=errors.ico_email_ente_responsabile,classes=['control-medium']) }}
+{{ form.input('ico_HomePage_Ente_Responsabile', label=_('HomePage Ente Responsabile'), id='field-ico_HomePage_Ente_Responsabile', placeholder=_('HomePage Ente Responsabile'), value=data.ico_HomePage_Ente_Responsabile, error=errors.ico_HomePage_Ente_Responsabile,classes=['control-medium']) }}
+{{ form.input('ico_tipo_ente_responsbile', label=_('Tipo Ente Responsbile'), id='field-ico_tipo_ente_responsbile', placeholder=_('Tipo Ente Responsbile'), value=data.ico_tipo_ente_responsbile, error=errors.ico_tipo_ente_responsbile,classes=['control-medium']) }}
+
+{{ form.input('publisher_name', label=_('Nome Struttura Riferimento'), id='field-publisher_name', placeholder=_('Nome Struttura Riferimento'), value=data.publisher_name, error=errors.publisher_name,classes=['control-medium']) }}
+{{ form.input('publisher_identifier', label=_('ID Struttura Riferimento'), id='field-publisher_identifier', placeholder=_('ID Struttura Riferimento'), value=data.publisher_identifier, error=errors.publisher_identifier,classes=['control-medium']) }}
+{{ form.input('ico_indirizzo_struttura_riferimento', label=_('Indirizzo Struttura Riferimento'), id='field-ico_indirizzo_struttura_riferimento', placeholder=_('Indirizzo Struttura Riferimento'), value=data.ico_indirizzo_struttura_riferimento, error=errors.ico_indirizzo_struttura_riferimento,classes=['control-medium']) }}
+{{ form.input('ico_recapito_telefonico_struttura_riferimento', label=_('Recapito Telefonico Struttura Riferimento'), id='field-ico_recapito_telefonico_struttura_riferimento', placeholder=_('Recapito Telefonico Struttura Riferimento'), value=data.ico_recapito_telefonico_struttura_riferimento, error=errors.ico_recapito_telefonico_struttura_riferimento,classes=['control-medium']) }}
+{{ form.input('ico_email_struttura_riferimento', label=_('Email Struttura Riferimento'), id='field-ico_email_struttura_riferimento', placeholder=_('Email Struttura Riferimento'), value=data.ico_email_struttura_riferimento, error=errors.ico_email_struttura_riferimento,classes=['control-medium']) }}
+
+{{ form.input('ico_nome_creatore', label=_('Nome Creatore'), id='field-ico_nome_creatore', placeholder=_('Nome Creatore'), value=data.ico_nome_creatore, error=errors.ico_nome_creatore,classes=['control-medium']) }}
+{{ form.input('ico_creator', label=_('URL Creatore'), id='field-ico_creator', placeholder=_('URL Creatore'), value=data.ico_creator, error=errors.ico_creator,classes=['control-medium']) }}
+{{ form.input('ico_indirizzo_creatore', label=_('Indirizzo Creatore'), id='field-ico_indirizzo_creatore', placeholder=_('Indirizzo Creatore'), value=data.ico_indirizzo_creatore, error=errors.ico_indirizzo_creatore,classes=['control-medium']) }}
+{{ form.input('ico_recapito_telefonico_creatore', label=_('Recapito Telefonico Creatore'), id='field-ico_recapito_telefonico_creatore', placeholder=_('Recapito Telefonico Creatore'), value=data.ico_recapito_telefonico_creatore, error=errors.ico_recapito_telefonico_creatore,classes=['control-medium']) }}
+{{ form.input('ico_email_creatore', label=_('Email Creatore'), id='field-ico_email_creatore', placeholder=_('Email Creatore'), value=data.ico_email_creatore, error=errors.ico_email_creatore,classes=['control-medium']) }}
+
+{{ form.input('ico_referente', label=_('Nome Referente'), id='field-ico_referente', placeholder=_('Nome Referente'), value=data.ico_referente, error=errors.ico_referente,classes=['control-medium']) }}
+{{ form.input('ico_email_referente', label=_('Email Referente'), id='field-ico_email_referente', placeholder=_('Email Referente'), value=data.ico_email_referente, error=errors.ico_email_referente,classes=['control-medium']) }}
+{{ form.input('ico_recapito_telefonico_referente', label=_('Recapito Telefonico Referente'), id='field-ico_recapito_telefonico_referente', placeholder=_('Recapito Telefonico Referente'), value=data.ico_recapito_telefonico_referente, error=errors.ico_recapito_telefonico_referente,classes=['control-medium']) }}
+
+{{ form.input('ico_area_geografica', label=_('Area Geografica'), id='field-ico_area_geografica', placeholder=_('Area Geografica'), value=data.ico_area_geografica, error=errors.ico_area_geografica,classes=['control-medium']) }}
+{{ form.input('ico_url_area_geografica', label=_('URL Area Geografica'), id='field-ico_url_area_geografica', placeholder=_('URL Area Geografica'), value=data.ico_url_area_geografica, error=errors.ico_url_area_geografica,classes=['control-medium']) }}
+{{ form.input('ico_livello_regionale', label=_('Livello Regionale'), id='field-ico_livello_regionale', placeholder=_('Livello Regionale'), value=data.ico_livello_regionale, error=errors.ico_livello_regionale,classes=['control-medium']) }}
+{{ form.input('ico_livello_provinciale', label=_('Livello Provinciale'), id='field-ico_livello_provinciale', placeholder=_('Livello Provinciale'), value=data.ico_livello_provinciale, error=errors.ico_livello_provinciale,classes=['control-medium']) }}
+{{ form.input('ico_livello_comunale', label=_('Livello Comunale'), id='field-ico_livello_comunale', placeholder=_('Livello Comunale'), value=data.ico_livello_comunale, error=errors.ico_livello_comunale,classes=['control-medium']) }}
+
+{{ form.input('temporal_start', label=_('Copertura Temporale Dal'), id='field-temporal_start', placeholder=_('Copertura Temporale Dal'), value=data.temporal_start, error=errors.temporal_start,classes=['control-medium'],type="date") }}
+{{ form.input('temporal_end', label=_('Copertura Temporale Al'), id='field-temporal_end', placeholder=_('Copertura Temporale Al'), value=data.temporal_end, error=errors.temporal_end,classes=['control-medium'],type="date") }}
+{{ form.input('frequency', label=_('Frequenza Aggiornamento'), id='field-frequency', placeholder=_('Frequenza Aggiornamento'), value=data.frequency, error=errors.frequency,classes=['control-medium']) }}
+{{ form.input('is_version_of', label=_('Versione Di'), id='field-is_version_of', placeholder=_('Versione Di'), value=data.is_version_of, error=errors.is_version_of,classes=['control-medium']) }}
+{{ form.input('conforms_to', label=_("Conformita'"), id='field-conforms_to', placeholder=_("Conformita'"), value=data.conforms_to, error=errors.conforms_to,classes=['control-medium']) }}
+{{ form.input('ico_info_aggiuntive', label=_('Informazioni di Dettaglio'), id='field-ico_info_aggiuntive', placeholder=_('Informazioni di Dettaglio'), value=data.ico_info_aggiuntive, error=errors.ico_info_aggiuntive,classes=['control-medium']) }}
+{{ form.input('ico_richiesto_account', label=_('Richiesto Account'), id='field-ico_richiesto_account', placeholder=_('Richiesto Account'), value=data.ico_richiesto_account, error=errors.ico_richiesto_account,classes=['control-medium']) }}
+{{ form.input('ico_riferimenti_normativi', label=_('Riferimenti Normativi'), id='field-ico_riferimenti_normativi', placeholder=_('Riferimenti Normativi'), value=data.ico_riferimenti_normativi, error=errors.ico_riferimenti_normativi,classes=['control-medium']) }}
+{{ form.input('ico_scala', label=_('Scala'), id='field-ico_scala', placeholder=_('Scala'), value=data.ico_scala, error=errors.ico_scala,classes=['control-medium']) }}
+{{ form.input('ico_applicazione_produce_banca_dati', label=_('Applicazione che Produce la Banca Dati'), id='field-ico_applicazione_produce_banca_dati', placeholder=_('Applicazione che Produce la Banca Dati'), value=data.ico_applicazione_produce_banca_dati, error=errors.ico_applicazione_produce_banca_dati,classes=['control-medium']) }}
+{{ form.input('ico_applicazione_utilizza_banca_dati', label=_('Applicazione che utilizza la banca dati'), id='field-ico_applicazione_utilizza_banca_dati', placeholder=_('Applicazione che utilizza la banca dati'), value=data.ico_applicazione_utilizza_banca_dati, error=errors.ico_applicazione_utilizza_banca_dati,classes=['control-medium']) }}
+{{ form.input('ico_fornitore_applicazione', label=_('Fornitore Applicazione'), id='field-ico_fornitore_applicazione', placeholder=_('Fornitore Applicazione'), value=data.ico_fornitore_applicazione, error=errors.ico_fornitore_applicazione,classes=['control-medium']) }}
+{{ form.input('ico_metadatato_geoportale', label=_('Layer Metadatato su Geoportale'), id='field-ico_metadatato_geoportale', placeholder=_('Layer Metadatato su Geoportale'), value=data.ico_metadatato_geoportale, error=errors.ico_metadatato_geoportale,classes=['control-medium']) }}
+
+<!-- portato eurovoc tra i dizionari -->
+{{ form.input('ico_tipologia_informazione', label=_('Tipologia Informazione'), id='field-ico_tipologia_informazione', placeholder=_('Tipologia Informazione'), value=data.ico_tipologia_informazione, error=errors.ico_tipologia_informazione,classes=['control-medium']) }}
+{{ form.input('tipo_dataset', label=_('Tipologia del dataset'), id='field-tipo_dataset', placeholder=_('Tipologia del dataset'), value=data.tipo_dataset, error=errors.tipo_dataset,classes=['control-medium']) }}
+{{ form.input('dati_sensibili', label=_('Soggetto a trattamento dati sensibili'), id='field-dati_sensibili', placeholder=_('Soggetto a trattamento dati sensibili'), value=data.dati_sensibili, error=errors.dati_sensibili,classes=['control-medium']) }}
+
+{{ form.input('data_di_creazione_dato', label=_('Data di Creazione dato'), id='field-data_di_creazione_dato', placeholder=_('Data di Creazione dato'), value=data.data_di_creazione_dato, error=errors.data_di_creazione_dato, classes=['control-medium'], type="date") }}
+{{ form.input('data_di_aggiornamento_dato', label=_('Data di Aggiornamento dato'), id='field-data_di_aggiornamento_dato', placeholder=_('Data di Aggiornamento dato'), value=data.data_di_aggiornamento_dato, error=errors.data_di_aggiornamento_dato, classes=['control-medium'], type="date") }}
+{{ form.input('data_di_pubblicazione_dato', label=_('Data di Pubblicazione dato'), id='field-data_di_pubblicazione_dato', placeholder=_('Data di Pubblicazione dato'), value=data.data_di_pubblicazione_dato, error=errors.data_di_pubblicazione_dato, classes=['control-medium'], type="date") }}
+
+{{ form.input('url_thumbnail_esposizione', label=_('URL della Thumbnail di preview del servizio di esposizione'), id='field-url_thumbnail_esposizione', placeholder=_('URL della Thumbnail di preview del servizio di esposizione'), value=data.url_thumbnail_esposizione, error=errors.url_thumbnail_esposizione,classes=['control-medium']) }}
+
+
+
+{% endblock %}
+
+

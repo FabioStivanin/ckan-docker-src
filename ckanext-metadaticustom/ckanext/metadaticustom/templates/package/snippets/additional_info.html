@@ -1,0 +1,434 @@
+{% ckan_extends %}
+
+{% block extras %}
+ 
+
+
+ {% if pkg_dict.language %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Lingua") }}</th>
+	  <td class="dataset-details">{% filter upper %}{{ pkg_dict.language }}{% endfilter %}
+		{% if pkg_dict.language|string() == 'ITA' or pkg_dict.language|string() == 'ita' %}
+			<img src="https://cdn2.iconfinder.com/data/icons/waving-world-flags/512/Italy-128.png" style="padding-left:10px"  width="20">
+		{% endif %}
+	</td>	
+    </tr>
+  {% endif %}
+ 
+{% if pkg_dict.version %}
+          <tr>
+            <th scope="row" class="dataset-label">{{ _("Version") }}</th>
+            <td class="dataset-details">{{ pkg_dict.version }}</td>
+          </tr>
+        {% endif %}
+
+  {% if pkg_dict.ico_isVersionOf %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Versione Di") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_isVersionOf }}</td>
+    </tr>
+  {% endif %}
+
+ {% if pkg_dict.frequency %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Frequenza Aggiornamento") }}</th>
+      <td class="dataset-details">{{ pkg_dict.frequency }}</td>
+    </tr>
+  {% endif %}
+
+
+
+
+
+
+  {% if pkg_dict.ico_area_geografica %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Area Geografica") }}</th>
+      <td class="dataset-details">
+{% if pkg_dict.ico_url_area_geografica %}
+ <a href={{ pkg_dict.ico_url_area_geografica }} target="_blank">{{ pkg_dict.ico_area_geografica }}</a>
+{% else %}
+{{ pkg_dict.ico_area_geografica }}
+{% endif %}
+
+</td>
+    </tr>
+  {% endif %}
+
+   {% if pkg_dict.ico_scala %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Scala") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_scala }}</td>
+    </tr>
+  {% endif %} 
+
+  {% if pkg_dict.ico_livello_regionale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Livello Regionale") }}</th>
+	
+      <td class="dataset-details"> 
+{% if pkg_dict.ico_url_livello_regionale %}
+<a href={{ pkg_dict.ico_url_livello_regionale }} target="_blank">{{ pkg_dict.ico_livello_regionale }}</a>
+{% else %}
+{{ pkg_dict.ico_livello_regionale }}
+{% endif %}
+</td>
+
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_livello_provinciale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Livello Provinciale") }}</th>
+       <td class="dataset-details"> <a href={{ pkg_dict.ico_url_livello_provinciale }} target="_blank">{{ pkg_dict.ico_livello_provinciale }}</a></td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_livello_comunale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Livello Comunale") }}</th>
+      <td class="dataset-details"> <a href={{ pkg_dict.ico_url_livello_comunale }} target="_blank">{{ pkg_dict.ico_livello_comunale }}</a></td>
+    </tr>
+  {% endif %}
+
+
+
+
+
+<!-- ############################ CONFORMITA' split su pipe
+-->
+
+
+  {% if pkg_dict.conforms_to %}
+  	{% set list = pkg_dict.conforms_to.split('|') %}
+    		<tr>
+      		<th scope="row" class="dataset-label">{{ _("Conformita'") }}</th> 
+      			<td class="dataset-details">
+			{% if list|length >1 %}
+				<ul>
+				{% for tag in list  %}
+				{% if (tag!="n.d.")  %}
+
+				<li>{{ tag }}	</li>
+				{% endif %}
+
+				{% endfor %}
+				</ul>
+			{% else %}
+				{{ list[0] }}
+			{% endif %}
+			</td>
+    		</tr>
+  {% endif %}
+
+  {% if pkg_dict.ico_info_aggiuntive %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Informazioni di Dettaglio") }}</th>
+      <td class="dataset-details"> <a href={{ pkg_dict.ico_info_aggiuntive }} target="_blank">{{ pkg_dict.ico_info_aggiuntive }}</a></td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_richiesto_account %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Richiesto Account") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_richiesto_account|title }}</td>
+    </tr>
+  {% endif %}
+
+    {% if pkg_dict.ico_riferimenti_normativi %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Riferimenti Normativi") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_riferimenti_normativi }}</td>
+    </tr>
+  {% endif %}
+ 
+
+  
+  {% if pkg_dict.ico_applicazione_produce_banca_dati %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Applicazione che Produce la Banca Dati") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_applicazione_produce_banca_dati }}</td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_applicazione_utilizza_banca_dati %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Applicazione che utilizza la banca dati") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_applicazione_utilizza_banca_dati }}</td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_fornitore_applicazione %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Fornitore Applicazione") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_fornitore_applicazione }}</td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_metadatato_geoportale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Layer Metadatato su Geoportale") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_metadatato_geoportale }}</td>
+    </tr>
+  {% endif %}
+
+  {% if pkg_dict.ico_tipologia_informazione %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Tipologia Informazione") }}</th>
+      <td class="dataset-details">{{ pkg_dict.ico_tipologia_informazione}}</td>
+    </tr>
+  {% endif %}
+
+
+{% if pkg_dict.dati_sensibili %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Soggetto a trattamento dati sensibili") }}</th>
+      <td class="dataset-details">{{ pkg_dict.dati_sensibili}}</td>
+    </tr>
+  {% endif %}
+
+  {% if pkg_dict.tipo_dataset %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Tipologia del dataset") }}</th>
+      <td class="dataset-details">{{ pkg_dict.tipo_dataset}}</td>
+    </tr>
+  {% endif %}
+
+
+ 
+
+
+{% if pkg_dict.url_thumbnail_esposizione %}
+<tr>
+  <th scope="row" class="dataset-label">{{ _("URL della Thumbnail di preview del servizio di esposizione") }}</th>
+  <td class="dataset-details">{{ pkg_dict.url_thumbnail_esposizione }}</td>
+</tr>
+{% endif %} 
+
+
+
+
+  {% if pkg_dict.theme %}
+   <tr>
+      <th scope="row" class="dataset-label">{{ _("Tema DCAT") }}</th>
+	  <td class="dataset-details">
+		{% for tag in pkg_dict.theme %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+ {% if c.categorie %}
+    <tr>
+      	<th scope="row" class="dataset-label">{{ _("Tema GEMET") }}</th>
+     		<td class="dataset-details">
+ 		{% for key, value in c.categorie.iteritems() %}
+            		<a href={{ value }} target="_blank">
+            		{{ key |replace("- ", ", ") }}
+			</a>; 
+      		{% endfor %}
+	  	</td>
+    	</tr>
+  {% endif %}
+<!--
+  {% if c.gemet %}
+      <tr>
+	<th scope="row" class="dataset-label">{{ _("Categoria GEMET") }}</th>
+     		<td class="dataset-details">
+ 		{% for key, value in c.gemet.iteritems() %}
+            		<a href={{ value  }} target="_blank">
+            		{{ key |capitalize }}
+			</a>, 
+      		{% endfor %}
+	  	</td>
+    	</tr>
+  {% endif %}		  
+-->
+  {% if pkg_dict.ico_categoria_eurovoc %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Categoria EUROVOC") }}</th>
+      <td class="dataset-details"> <a href={{ pkg_dict.ico_url_eurovoc }} target="_blank">{{ pkg_dict.ico_categoria_eurovoc }}</a></td>
+    </tr>
+  {% endif %}
+
+  {% if pkg_dict.ico_sottocategoria_eurovoc %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Sottocategoria EUROVOC") }}</th>
+      <td class="dataset-details"> <a href={{ pkg_dict.ico_url_sottocategoria_eurovoc }} target="_blank">{{ pkg_dict.ico_sottocategoria_eurovoc }}</a></td>
+    </tr>
+  {% endif %}
+
+<!--
+  {% if pkg_dict.ico_vocabolario_TAmbientale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Tematica Ambientale") }}</th>
+	  <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_TAmbientale %}
+			{{tag}} ,
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_stTematica_ambientale %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Sottotematica Ambientale") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_stTematica_ambientale %}
+			{{tag}} ,
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+-->
+
+ {% if pkg_dict.ico_vocabolario_Archivio %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Archivio") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_Archivio %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_Elementi %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Elementi") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_Elementi %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_modello_dpsir %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Modello DPSIR") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_modello_dpsir %}
+			{{tag}} ,
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_EnCo %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Enti Coinvolti") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_EnCo %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_fonte_informazione %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Fonte Informazione") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_fonte_informazione %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_LP %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Livello di Pubblicazione") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_LP %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_PP %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Portale Pubblicazione") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_PP %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_Finanziamenti %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Finanziamenti") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_Finanziamenti %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_TD %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Tipo Dato") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_TD %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_attivita %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Attivita'") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_attivita %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+
+  {% if pkg_dict.ico_vocabolario_dato_certificato %}
+    <tr>
+      <th scope="row" class="dataset-label">{{ _("Dato Certificato") }}</th>
+      <td class="dataset-details">
+		{% for tag in pkg_dict.ico_vocabolario_dato_certificato %}
+			{{tag}},
+		{% endfor %}
+	  </td>
+    </tr>
+  {% endif %}
+
+ {% for extra in h.sorted_extras(pkg_dict.extras) %}
+          {% set key, value = extra %}
+          <tr rel="dc:relation" resource="_:extra{{ i }}">
+            <th scope="row" class="dataset-label" property="rdfs:label">{{ _(key)|title }}</th>
+            <td class="dataset-details" property="rdf:value">{{ value }}</td>
+          </tr>
+        {% endfor %}
+
+{% endblock %}
+
